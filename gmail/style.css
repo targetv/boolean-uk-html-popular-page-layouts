@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template:
+    "logo search icons icons" 50px
+    "left-menu main right-menu apps" 1fr/
+    250px 1fr 300px 60px;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.main {
+  background-color: red;
+  grid-area: main;
+}
+.left-menu {
+  background-color: yellow;
+  grid-area: left-menu;
+}
+.logo {
+  background-color: green;
+  grid-area: logo;
+}
+.right-menu {
+  background-color: purple;
+  grid-area: right-menu;
+}
+.apps {
+  background-color: orange;
+  grid-area: apps;
+}
+.icons {
+  background-color: grey;
+  grid-area: icons;
+}
+.searchbar {
+  background-color: lightblue;
+  grid-area: search;
+}

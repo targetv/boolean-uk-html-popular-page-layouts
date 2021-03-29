@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template:
+    " . nav nav nav ." 50px
+    " . left-menu main right-menu ." 1fr/
+    200px 200px 1fr 200px 200px;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.main {
+  background-color: red;
+  grid-area: main;
+}
+.left-menu {
+  background-color: yellow;
+  grid-area: left-menu;
+}
+.navbar {
+  background-color: green;
+  grid-area: nav;
+}
+.right-menu {
+  background-color: purple;
+  grid-area: right-menu;
+}

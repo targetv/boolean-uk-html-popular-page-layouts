@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template:
+    "discords server-name channel-name icons" 50px
+    "discords server main main" 1fr
+    "discords icons-footer main main" 40px/
+    50px 200px 1fr 300px;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.main {
+  background-color: red;
+  grid-area: main;
+}
+.server {
+  background-color: yellow;
+  grid-area: server;
+}
+.channel-name {
+  background-color: green;
+  grid-area: channel-name;
+}
+.icons-footer {
+  background-color: purple;
+  grid-area: icons-footer;
+}
+.discords {
+  background-color: orange;
+  grid-area: discords;
+}
+.icons {
+  background-color: grey;
+  grid-area: icons;
+}
+.server-name {
+  background-color: lightblue;
+  grid-area: server-name;
+}
