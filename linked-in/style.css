@@ -28,7 +28,8 @@
     display: none;
   }
   .icons {
-    display: grid;
+    background-color: orange;
+    grid-area: icons;
   }
 }
 
@@ -47,9 +48,4 @@
 .right-menu {
   background-color: purple;
   grid-area: right-menu;
-}
-.icons {
-  background-color: orange;
-  grid-area: icons;
-  display: none;
 }
