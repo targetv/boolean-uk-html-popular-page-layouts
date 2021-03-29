@@ -13,6 +13,23 @@
   grid-gap: 10px;
   height: 100vh;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template:
+      "logo icons" 50px
+      "apps apps" 30px
+      "main main" 1fr/
+      100px 1fr;
+  }
+  .left-menu{
+    display: none;
+  }
+  .right-menu{
+    display: none;
+  }
+  .searchbar{
+    display: none;
+  }
 
 .main {
   background-color: red;
