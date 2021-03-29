@@ -14,6 +14,22 @@
   grid-gap: 10px;
   height: 100vh;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template:
+      "discords server-name main" 50px
+      "discords server main" 1fr
+      "discords server main" 1fr
+      "icons icons icons" 40px/
+      40px 1fr 40px;
+  }
+  .icons-footer {
+    display: none;
+  }
+  .channel-name {
+    display: none;
+  }
+}
 
 .main {
   background-color: red;
