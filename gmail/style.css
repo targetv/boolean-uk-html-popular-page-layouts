@@ -21,15 +21,16 @@
       "main main" 1fr/
       100px 1fr;
   }
-  .left-menu{
+  .left-menu {
     display: none;
   }
-  .right-menu{
+  .right-menu {
     display: none;
   }
-  .searchbar{
+  .searchbar {
     display: none;
   }
+}
 
 .main {
   background-color: red;
