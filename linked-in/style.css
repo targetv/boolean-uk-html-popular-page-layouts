@@ -13,6 +13,21 @@
   grid-gap: 10px;
   height: 100vh;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template:
+      "nav" 50px
+      "main" 1fr
+      "icons" 30px/
+      1fr;
+  }
+  .left-menu {
+    display: none;
+  }
+  .right-menu {
+    display: none;
+  }
+}
 
 .main {
   background-color: red;
@@ -29,4 +44,8 @@
 .right-menu {
   background-color: purple;
   grid-area: right-menu;
+}
+.icons {
+  background-color: orange;
+  grid-area: icons;
 }
