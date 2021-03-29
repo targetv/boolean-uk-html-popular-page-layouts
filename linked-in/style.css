@@ -27,6 +27,9 @@
   .right-menu {
     display: none;
   }
+  .icons {
+    display: grid;
+  }
 }
 
 .main {
@@ -48,4 +51,5 @@
 .icons {
   background-color: orange;
   grid-area: icons;
+  display: none;
 }
